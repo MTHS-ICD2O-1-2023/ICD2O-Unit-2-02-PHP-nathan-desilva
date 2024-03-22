@@ -32,6 +32,10 @@
       <div class="page-content">
         <?php echo '<p>The Area is: = ' . 5 * 3 . ' cm². </p>'; ?>
         <?php echo '<p>The Perimeter is: ' . 2 * (5 + 3) . ' cm. </p>'; ?>
+                  <!-- Raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="doMathClicked()">
+            Submit
+          </button>
       </div>
       <br />
     </main>
