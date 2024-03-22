@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="The Area & Perimeter program, in PHP" />
@@ -15,6 +16,7 @@
   <link rel="manifest" href="site.webmanifest" />
   <title>The Area & Perimeter program,in PHP</title>
 </head>
+
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -32,13 +34,12 @@
       <div class="page-content">
         <?php echo '<p>The Area is: = ' . 5 * 3 . ' cm². </p>'; ?>
         <?php echo '<p>The Perimeter is: ' . 2 * (5 + 3) . ' cm. </p>'; ?>
-                  <!-- Raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="doMathClicked()">
-            Submit
-          </button>
+        <!-- Accent-colored raised button with ripple -->
+        <input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
       </div>
       <br />
     </main>
   </div>
 </body>
+
 </html>
