@@ -25,7 +25,7 @@
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/area_and_perimeter.png" alt="street image" />
+          <img src="./images/area_and_perimeter.png" alt="area and perimeter" />
         </div>
         <!-- basic text -->
         <p style="font-size: x-large">The dimensions of a rectangle are: 5 cm and 3 cm.</p>
